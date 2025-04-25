@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = 'blog';
+const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
+---
+
+<BaseLayout pageTitle={pageTitle}>
+	<p>ITT: the incoherent ramblings of a madman with a silver hair follicle.</p>
+
+	<hr>
+
+	<div style="text-align: left;">
+		<h2>posts</h2>
+		<ul>
+			{allPosts.map((post: any) => <li><a href={post.url}>{post.frontmatter.title}</a> — <em>published on {post.frontmatter.pubDate.toString().slice(0, 10)}</em></li>)}
+		</ul>
+	</div>
+</BaseLayout>
