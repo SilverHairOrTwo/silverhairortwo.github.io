@@ -17,7 +17,7 @@ My goal, then, is to build the lightest atomic Linux distribution that GNOME can
 
 The name? Project Based: Build A Suckless Excessive Distribution. Don't ask me why.
 
-However, I cannot deny that there is a **long** way to go: I must begin by writing a package manager and package all of the core utilities (and glibc) one would expect, but even that would merely give us a barebones Linux *rootfs*; I also maintain a desktop environment, and so, the mere prospect of packaging the entirety of GNOME as a single individual is terrifying to me. Yet, one must start somewhere.
+However, I cannot deny that there is a **long** way to go: I must begin by writing a package manager and package all of the core utilities (and glibc) one would expect, but even that would merely give us a barebones Linux *rootfs*; I also maintain a similar desktop environment, and so, the mere prospect of packaging the entirety of GNOME as a single individual is terrifying to me (having already done so in the past). Yet, one must start somewhere.
 
 ### Package format
 
@@ -103,3 +103,10 @@ Call it my paranoia, but I have opted to use YAML instead of a shell script so t
 
 The plan is to write the package manager in Python, meaning it is paramount that `python` and `python-yaml` be among the libraries we first package (in addition to `coreutils`, `gcc` and `glibc`).
 
+### Conclusion
+
+I will end this article here, due to some other tasks that await me. As must be evident (and I cannot reiterate this enough), there certainly is a **lot** to be undertaken if I am to have any hope of nearing completion.
+
+However, I would appreciate any support or assistance, especially as I progress onto packaging every program and library that is to be packaged; the question of maintenance (and the bus factor) also bothers me, given the sheer number of packages.
+
+You can reach out to me via email, Mastodon or Reddit (in that order of preference), as listed on my [homepage](/).
