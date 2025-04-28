@@ -9,6 +9,7 @@ body {
   padding: 1rem;
   line-height: 1.5;
   text-align: center;
+  font-family: 'Crimson Text';
 }
 
 * {
@@ -18,4 +19,9 @@ body {
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
+}
+
+.astro-code {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
 }

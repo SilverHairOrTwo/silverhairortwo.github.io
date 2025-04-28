@@ -1,8 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection, getEntry } from 'astro:content';
 
 const pageTitle = 'blog';
+const posts = await getCollection('posts');
+console.log(posts)
 const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
+allPosts.sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
 ---
 
 <BaseLayout pageTitle={pageTitle}>
