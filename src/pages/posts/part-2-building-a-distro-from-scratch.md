@@ -7,7 +7,7 @@ author: 'SilverHairOrTwo'
 tags: ['general']
 ---
 
-First, a recap. In my [last post](/posts/part-1-building-a-linux-distro-from-scratch), I had come up with a suitable package layout for our package manager (a 'simple' version of which I have developed in the time between publishing these two posts; it can be found at [https://github.com/SilverHairOrTwo/based](https://github.com/SilverHairOrTwo/based)). Since then, however, I have made some changes to the format, which I will gloss over before proceeding to explain how the inner-workings of this package manager.
+First, a recap. In my [last post](/posts/part-1-building-a-distro-from-scratch), I had come up with a suitable package layout for our package manager (a 'simple' version of which I have developed in the time between publishing these two posts; it can be found at [https://github.com/SilverHairOrTwo/based](https://github.com/SilverHairOrTwo/based)). Since then, however, I have made some changes to the format, which I will gloss over before proceeding to explain how the inner-workings of this package manager.
 
 ### Package layout
 
