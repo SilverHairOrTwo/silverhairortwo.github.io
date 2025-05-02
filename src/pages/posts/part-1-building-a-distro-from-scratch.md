@@ -15,7 +15,7 @@ This series of blog posts, therefore, serves to document my thought-process, for
 
 My goal, then, is to build the lightest atomic Linux distribution that GNOME can possibly run on with Flatpak support (and distrobox), as a learning experiment.
 
-The name? Project Based: Build A Suckless Excessive Distribution. Don't ask me why.
+The name? Project Based: Build A Suckless unEssential Distribution. Don't ask me why.
 
 However, I cannot deny that there is a **long** way to go: I must begin by writing a package manager and package all of the core utilities (and glibc) one would expect, but even that would merely give us a barebones Linux *rootfs*; I also maintain a similar desktop environment, and so, the mere prospect of packaging the entirety of GNOME as a single individual is terrifying to me (having already done so in the past). Yet, one must start somewhere.
 
