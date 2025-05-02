@@ -2,7 +2,7 @@
 layout: '../../layouts/PostLayout.astro'
 title: 'Part II: Building a Linux distribution from scratch'
 pubDate: 2025-05-02
-description: 'Building a package manager for our new distribution.'
+description: 'Building a package manager for my new distribution.'
 author: 'SilverHairOrTwo'
 tags: ['general']
 ---
